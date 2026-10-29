@@ -65,7 +65,7 @@ It can be used for activities such as:
 - Exploitation practice
 - Security-tool experimentation
 
-⚠️ **Important:** This laboratory must only be used for systems that you own or have explicit permission to test. Do not use the lab or its tools to attack unauthorized systems.
+⚠️ **Important:** This laboratory must only be used for systems that you own or have concern permission to test. Do not use the lab or its tools to attack unauthorized systems.
 
 ---
 
@@ -74,7 +74,6 @@ It can be used for activities such as:
 ![](1-Screenshot-title-page.png)
 
 
-Additional target machines can be added to the same virtual network in future projects.
 
 ---
 
@@ -134,7 +133,7 @@ This will allow future attacker and target VMs to communicate within the lab.
 
 ## Step 4. Import Kali Linux
 
-The Kali Linux virtual machine was downloaded from the official Kali Linux website and imported into VirtualBox.
+The Kali Linux virtual machine was downloaded from the official Kali Linux website and imported into the Virtual-Box.
 
 The VM network adapter was configured as follows:
 
@@ -142,7 +141,7 @@ The VM network adapter was configured as follows:
 Adapter 1
 Attached to: NAT Network
 Network:     NatNetwork
-Adapter Type: Intel PRO/1000 MT Desktop
+Adapter Type: Intel PRO/1000 MT Desktop (82540EM)
 ```
 
 The VM was allocated:
@@ -178,7 +177,7 @@ A consistent IP address makes it easier to document the lab and reference the Ka
 
 ## Step 6. Create a Clean VM Snapshot
 
-After completing the initial configuration, a VirtualBox snapshot was created.
+After completing the initial configuration, a Virtual-Box snapshot was created.
 
 Example snapshot name:
 
@@ -201,8 +200,7 @@ If a future exercise changes or damages the VM configuration, the machine can be
 |   Test gateway               | `ping 10.0.0.1`                | Successfully replied            |
 |   Test Internet connectivity | `ping 8.8.8.8`                 | Successfully replied            |
 |   Test DNS resolution        | `nslookup networkwalks.com`    | Domain resolves                 |
-|   Verify Nmap                | `nmap --version`               | Nmap version displayed          |
-|   Verify snapshot            | Restore snapshot and run `ip a`| Baseline configuration restored |
+
 
 ### Example Results
 
@@ -233,7 +231,7 @@ One workaround used during this lab was:
 sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0
 ```
 
-The network connection was then restarted/rebooted and connectivity was tested again.
+The network connection was then restarted and connectivity was tested again.
 
 > **Important Note for others:** Network interface and connection names may differ between systems. Students should first identify their actual connection name before running an `nmcli` command.
 
@@ -253,9 +251,9 @@ A NAT Network allows multiple VMs connected to the same virtual network to commu
 
 This makes it useful for building a multi-machine cybersecurity laboratory.
 
-### 2. Virtual Machine Networking
+### 2. VM Networking
 
-I learned how VirtualBox virtual network adapters connect virtual machines to different types of networks and how network configuration affects communication between machines.
+I learned how Virtual-Box virtual network adapters connect virtual machines to different types of networks and how network configuration affects communication between machines.
 
 ### 3. Static IP Configuration
 
@@ -269,13 +267,13 @@ This provides a known-good recovery point for future cybersecurity exercises.
 
 ### 5. Documentation
 
-I learned that documenting commands, configuration, screenshots, problems, and solutions is an important part of a professional cybersecurity project.
+I learned that documenting commands, configuration, screenshots, problems and solutions is an important part of a professional cybersecurity project.
 
 ---
 
 # Security and Ethical Use
 
-This laboratory is used strictly for education purposes only.
+This laboratory is strictly and only used for education purposes only.
 
 ---
 
