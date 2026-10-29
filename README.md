@@ -277,7 +277,7 @@ This laboratory is strictly and only used for education purposes only.
 
 ---
 
-# Tools & Resources I used:
+# Tools and Resources I used:
 
 - **7-Zip:** [https://7-zip.org/download.html](https://7-zip.org/download.html)
 - **VirtualBox:** [https://virtualbox.org/wiki/Downloads](https://virtualbox.org/wiki/Downloads)
