@@ -296,4 +296,4 @@ LinkedIn: [https://www.linkedin.com/in/waqaskarim/](https://www.linkedin.com/in/
 
 ## Project Information
 
-**Program Name:** Cybersecurity at Networkwalks | **Week:** 01 | **Project:** Cybersecurity and Pentesting Lab Setup 
+**Program Name:** Cybersecurity at Networkwalks | **Week:** 01 | **Project:** Cybersecurity-Lab-Setup 
