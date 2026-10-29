@@ -3,7 +3,7 @@ Cybersecurity-Lab-Setup
 
 <div align="center">
 
-# 🔐 Cybersecurity Lab Environment Setup
+# Cybersecurity Lab Environment Setup
 
 **Building an isolated virtual lab for penetration testing and ethical hacking practice**
 </div>
@@ -20,27 +20,26 @@ Cybersecurity-Lab-Setup
   <img src="https://img.shields.io/badge/Kali%20Linux-404040?style=flat-square&labelColor=C00000&logo=kalilinux&logoColor=white" />
   <img src="https://img.shields.io/badge/NetworkWalks-404040?style=flat-square&labelColor=C00000" />
   <img src="https://img.shields.io/badge/Ethical%20Hacking-E87500?style=flat-square&labelColor=000000&logo=kalilinux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Waqas%20Karim%20CCIE-C00000?style=flat-square" />
 </p>
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
-This project focuses on setting up a **virtual cybersecurity and penetration-testing laboratory** using VirtualBox and Kali Linux.
+This project focuses on setting up a **virtual cybersecurity and penetration-testing lab** using VirtualBox and Kali Linux.
 
-The purpose of the lab is to create a controlled environment where cybersecurity tools, network scanning, reconnaissance, vulnerability assessment, and other security-testing activities can be performed safely and repeatedly.
+The purpose of the lab is to create a controlled and isolated environment where cybersecurity tools, network scanning, reconnaissance, vulnerability assessment and other security-testing activities can be performed safely and repeatedly.
 
 The lab is configured on a private virtual network so that additional machines can be added later and used as targets for authorized security testing.
 
 ---
 
 
-## 🎯 Objectives
+## Objectives
 
 The main objectives of this project are to:
 
-- Install and configure VirtualBox.
+- Install and configure the VirtualBox.
 - Install/import Kali Linux as a virtual machine.
 - Create a private **NAT Network** for the cybersecurity lab.
 - Configure network connectivity for Kali Linux.
@@ -52,7 +51,7 @@ The main objectives of this project are to:
 
 ---
 
-## 🛡️ Purpose of the Lab
+## Purpose of the Lab
 
 The lab provides an isolated and controlled environment for cybersecurity learning and authorized security testing.
 
@@ -70,7 +69,7 @@ It can be used for activities such as:
 
 ---
 
-## 🏗️ Lab Architecture
+##  Lab Architecture
 
 ![](1-Screenshot-title-page.png)
 
@@ -79,26 +78,26 @@ Additional target machines can be added to the same virtual network in future pr
 
 ---
 
-## ⚙️ Lab Configuration
+## Lab Configuration
 
-| 🧩 Component       | ⚙️ Configuration   |
+|  Component          |   Configuration   |
 | ------------------ | ------------------ |
-| 🖥️ Host OS         | Ubuntu (Dual-Boot) |
-| 🧠 Host RAM        | 16 GB              |
-| ⚡ Processor       | Intel Core i7      |
-| 🧰 Hypervisor      | VirtualBox 7.2  |
-| 🐉 Security OS     | Kali Linux 2026.2  |
-| 🧠 Kali RAM        | 2048 MB            |
-| 🌐 Virtual Network | NAT Network        |
-| 📡 Network Address | 10.0.0.0/24        |
-| 🐧 Kali IP Address | 10.0.0.2/24        |
-| 🚪 Default Gateway | 10.0.0.1           |
-| 🌍 DNS Server      | 8.8.8.8            |
-| 🔮 Future VM Range | 10.0.0.3–10.0.0.99 |
+|   Host OS          | Ubuntu (Dual-Boot) |
+|   Host RAM         | 16 GB              | 
+|   Processor        | Intel Core i7      |
+|   Hypervisor       |  VirtualBox 7.2    |
+|   Security OS      |  Kali Linux 2026.2 |
+|    Kali RAM        |  2048 MB           |
+|   Virtual Network  |  NAT Network       |
+|  Network Address   |   10.0.0.0/24      |
+|  Kali IP Address   |   10.0.0.2/24      |
+|  Default Gateway   |   10.0.0.1         |
+|  DNS Server        |   8.8.8.8          |
+|  Future VM Range   | 10.0.0.3–10.0.0.99 |
 
 ---
 
-# 🪜 Lab Setup Procedure
+# Lab Setup Procedure
 
 ## Step 1. Install 7-Zip
 
@@ -194,16 +193,16 @@ If a future exercise changes or damages the VM configuration, the machine can be
 
 ---
 
-# 🔎 Lab Verification
+# Lab Verification
 
-| ✅ Test                       | 🧾 Command                      | 🎯 Expected Result              |
-| ----------------------------- | ------------------------------- | ------------------------------- |
-| 🌐 Check IP address           | `ip a`                          | Correct Kali IP displayed       |
-| 📡 Test gateway               | `ping 10.0.0.1`                 | Successfully replied            |
-| 🌍 Test Internet connectivity | `ping 8.8.8.8`                  | Successfully replied            |
-| 🔎 Test DNS resolution        | `nslookup networkwalks.com`     | Domain resolves                 |
-| 🧰 Verify Nmap                | `nmap --version`                | Nmap version displayed          |
-| 🔄 Verify snapshot            | Restore snapshot and run `ip a` | Baseline configuration restored |
+|   Test                       |   Command                      |   Expected Result               |
+| -----------------------------| -------------------------------| ------------------------------- |
+|   Check IP address           | `ip a`                         | Correct Kali IP displayed       |
+|   Test gateway               | `ping 10.0.0.1`                | Successfully replied            |
+|   Test Internet connectivity | `ping 8.8.8.8`                 | Successfully replied            |
+|   Test DNS resolution        | `nslookup networkwalks.com`    | Domain resolves                 |
+|   Verify Nmap                | `nmap --version`               | Nmap version displayed          |
+|   Verify snapshot            | Restore snapshot and run `ip a`| Baseline configuration restored |
 
 ### Example Results
 
@@ -220,7 +219,7 @@ DNS:
 
 ---
 
-# 🐞 Problems I Encountered and their potential Solutions:
+# Problems I Encountered and their potential Solutions:
 
 Documenting problems is an important part of the project.
 
@@ -240,7 +239,7 @@ The network connection was then restarted/rebooted and connectivity was tested a
 
 ---
 
-# 💡 What I Learned
+# What I Learned
 
 Through this project, I learned how to create and configure a virtual environment for cybersecurity practice.
 
@@ -274,13 +273,13 @@ I learned that documenting commands, configuration, screenshots, problems, and s
 
 ---
 
-# 🔐 Security & Ethical Use
+# Security and Ethical Use
 
 This laboratory is used strictly for education purposes only.
 
 ---
 
-# 🔗 Tools & Resources I used:
+# Tools & Resources I used:
 
 - **7-Zip:** [https://7-zip.org/download.html](https://7-zip.org/download.html)
 - **VirtualBox:** [https://virtualbox.org/wiki/Downloads](https://virtualbox.org/wiki/Downloads)
@@ -288,7 +287,7 @@ This laboratory is used strictly for education purposes only.
 
 ---
 
-# 👤 Author
+# Author (Our Professor)
 
 **Waqas Karim**\
 Cybersecurity Professional B084
@@ -297,6 +296,6 @@ LinkedIn: [https://www.linkedin.com/in/waqaskarim/](https://www.linkedin.com/in/
 
 ---
 
-## 📌 Project Information
+## Project Information
 
-**Program Name:** Cybersecurity at Networkwalks | **Week:** 01 | **Project:** Cybersecurity and Pentesting Lab Setup | **Repository:** GitHub
+**Program Name:** Cybersecurity at Networkwalks | **Week:** 01 | **Project:** Cybersecurity and Pentesting Lab Setup 
